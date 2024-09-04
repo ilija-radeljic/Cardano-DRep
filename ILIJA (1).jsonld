@@ -1,0 +1,79 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "ILIJA",
+    "motivations": "I have been a Cardano fan since 2020, actively participating since the end of ITN. Acting closely as an Catalyst assesor/advisor and veteran assesor/advisor since Fund2.\n\nCurrently COO of NuNet, leading the OPS of a deep tech startup. I have helped steer NuNet to successfully growing up to 30+ people and reaching a point of transitioning from pure R&D focus to the rapid growth, with deployment on Cardano.\n\nI have over 15 years of experience in managing major infrastructure, power, and manufacturing projects, and want to bring this wealth of knowledge to the blockchain world.\n\nMy formal education is in engineering, including an MSc in Civil Engineering and a certification in Executive Management and Leadership from MIT Sloan. Strong foundation for DRep role in the rapidly evolving blockchain industry.",
+    "objectives": "I want to be able to closely monitor the work of the governance groups and encourage responsible governance and conservative treasury management. \n\nI believe we are at the beginning of the new major technological revolution, and Cardano is well positioned to take the lead there. The revolution will be in part with AI + blockchain + DePIN narrative and that is my personal major interest.\n\nMy biggest fear for Cardano growth and adoption is unaccountable parasitical political caste spending the treasury without 3rd party oversight. This could lead to depletion of the funds needed to nurture the growth in decades to come. Therefore, I have decided to bring my 15+ years of corporate management experience to the governance.",
+    "paymentAddress": "addr1q9t4y3cxjmpe44tqvdf0mvjm04lvpjfdz3pvvkphuxq39q0d3cseh4e7kh7wuc6xeejy654erxx55ddxrlhefyx28zzqsf0lyk",
+    "qualifications": "I have a strong engineering background, coupled with management in major complex real word projects. This provides solid analytical and logical decision making skills.\n\nNow, as a COO of a blockchain based deep tech startup I possess a wealth of knowledge from digital and physical world which i want to bring to the Cardano governance.\n\nBeing at the age of 44, I consider this a nice balance between enough of life experience and life energy for executing complex oversight.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "Linkedin",
+        "uri": "https://www.linkedin.com/in/ilija-radelji%C4%87-2108ab14/"
+      },
+      {
+        "@type": "Identity",
+        "label": "Linkedin",
+        "uri": "https://www.linkedin.com/in/ilija-radelji%C4%87-2108ab14/"
+      },
+      {
+        "@type": "Identity",
+        "label": "Gitlab",
+        "uri": "https://github.com/ilija-radeljic/Cardano-DRep"
+      }
+    ]
+  }
+}
